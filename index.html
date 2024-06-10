@@ -8,27 +8,29 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #fff7f8;
-            color: #333;
+            background-color: #faf3f0; /* Nude background color */
+            color: #4d4d4d; /* Darker text color */
             margin: 0;
             padding: 0;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
         header {
-            background-color: #ff99bb;
+            background-color: #ffccdd; /* Pink header background color */
             padding: 20px;
             text-align: center;
             font-size: 2.5em;
             color: #fff;
             font-family: 'Pacifico', cursive;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #ffccdd;
+            background-color: #ff99bb; /* Lighter pink navigation background color */
             padding: 10px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
         }
         nav a {
             color: #fff;
@@ -38,7 +40,7 @@
             transition: color 0.3s ease;
         }
         nav a:hover {
-            color: #ff99bb;
+            color: #ffccdd; /* Hover color matches header background */
         }
         .container {
             padding: 20px;
@@ -49,21 +51,22 @@
         .section {
             margin-bottom: 40px;
             padding: 20px;
-            background: #fff;
+            background: #fff; /* White section background */
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .section:hover {
             transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.1);
         }
         h2 {
             font-family: 'Pacifico', cursive;
-            color: #ff99bb;
+            color: #ff99bb; /* Pink heading color */
             text-align: center;
         }
         footer {
-            background-color: #ff99bb;
+            background-color: #ffccdd; /* Pink footer background color */
             text-align: center;
             padding: 10px;
             position: fixed;
@@ -71,6 +74,7 @@
             bottom: 0;
             color: #fff;
             box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
         }
         .profile-pic {
             display: block;
@@ -79,24 +83,24 @@
             height: 150px;
             border-radius: 50%;
             background-color: #fff;
-            border: 3px solid #ff99bb;
+            border: 3px solid #ff99bb; /* Pink border */
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
         .profile-pic:hover {
             transform: scale(1.05);
-            border-color: #ffccdd;
+            border-color: #ffccdd; /* Lighter pink on hover */
         }
         p {
             text-align: center;
             line-height: 1.6;
         }
         a {
-            color: #ff99bb;
+            color: #ff99bb; /* Pink link color */
             text-decoration: none;
             transition: color 0.3s ease;
         }
         a:hover {
-            color: #ffccdd;
+            color: #ffccdd; /* Lighter pink on hover */
         }
     </style>
 </head>
@@ -130,7 +134,4 @@
         </div>
     </div>
     <footer>
-        &copy; 2024 Cutie Bear
-    </footer>
-</body>
-</html>
+        &copy
